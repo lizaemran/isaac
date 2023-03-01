@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
+import Layout from "./layout/Layout";
+import Dashboard from "./Views/Dashboard";
+import TQM from "./Views/TQM";
+import "./App.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+      <Route exact path="/" element=<Dashboard /> />
+        <Route exact path="/tqm" element=<TQM /> />
+      </Routes>
+    </Layout>
   );
 }
+
+const styles = {
+  sidebar: {
+    width: "2rem",
+    position: "fixed",
+    top: "60px",
+    height: "90vh",
+    backgroundColor: "#283848",
+    padding: "2rem",
+  },
+};
 
 export default App;

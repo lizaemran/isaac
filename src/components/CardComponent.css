@@ -1,0 +1,110 @@
+.card_cover {
+  width: 300px;
+  height: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 25px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3.2rem 2rem 0;
+}
+
+.margin_no {
+  margin: 0 0rem 2rem 0;
+}
+.label_img {
+  height: 50px;
+  width: 50px;
+}
+
+.header_card {
+  text-align: center;
+  font-size: 18px;
+  color: #606060;
+  opacity: 1;
+  margin: 1rem 0rem;
+}
+
+.card_Per {
+  width: 56px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+
+.card_percent {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+.card_scale {
+  display: flex;
+  align-items: center;
+  margin-top: -0.75rem;
+}
+
+.card_Gimg {
+  width: 9px;
+  height: 9px;
+}
+
+.card_grade {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.card_button {
+  width: 200px;
+  height: 40px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50px;
+  opacity: 1;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.red {
+  color: #ff134a;
+}
+.green {
+  color: #4ccd6a;
+}
+
+.order {
+  background: transparent linear-gradient(300deg, #fcaf3c 0%, #ff9500 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.Vendor {
+  background: transparent linear-gradient(322deg, #ffef5d 0%, #f9c210 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.delivery {
+  background: transparent linear-gradient(355deg, #82f89d 0%, #46c864 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.pay {
+  background: transparent linear-gradient(300deg, #e11e25 0%, #d4242a 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.score {
+  background: transparent linear-gradient(300deg, #fcaf3c 0%, #ff9500 100%) 0%
+    0% no-repeat padding-box;
+}
